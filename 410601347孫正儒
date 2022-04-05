@@ -12,15 +12,6 @@
     },
     {
       "cell_type": "markdown",
-      "source": [
-        ""
-      ],
-      "metadata": {
-        "id": "abzZdKE6rCBv"
-      }
-    },
-    {
-      "cell_type": "markdown",
       "metadata": {
         "id": "Nma_JWh-W-IF"
       },
@@ -39,14 +30,14 @@
     {
       "cell_type": "code",
       "source": [
-        "print(\"123\")"
+        "print('Hi')"
       ],
       "metadata": {
+        "id": "-gLOIYFQtvL2",
+        "outputId": "723f35d1-3dc2-4ea3-9ea0-22989b19352f",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        },
-        "id": "HwEjuOSUrC-P",
-        "outputId": "557ea0a8-0e29-4287-e951-edcef2430a4a"
+        }
       },
       "execution_count": 1,
       "outputs": [
@@ -54,7 +45,7 @@
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "123\n"
+            "Hi\n"
           ]
         }
       ]
@@ -62,25 +53,40 @@
     {
       "cell_type": "code",
       "source": [
-        "num1=1+1.1"
+        "34%3"
       ],
       "metadata": {
-        "id": "kPb0MFuZrDiL"
+        "id": "GVN2iZYCt4_J",
+        "outputId": "3e9fb3c8-0bd1-4156-bded-d6da827af37b",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
       },
       "execution_count": 2,
-      "outputs": []
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "1"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 2
+        }
+      ]
     },
     {
       "cell_type": "code",
       "source": [
-        "num1"
+        "3**2"
       ],
       "metadata": {
+        "id": "GnkkntAvuO1q",
+        "outputId": "ce182aa4-2aa3-4096-9733-dac574ef07d1",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        },
-        "id": "V6LFoQ3xsTd8",
-        "outputId": "d2b750f4-0bc5-478b-8706-8d64fcbab418"
+        }
       },
       "execution_count": 3,
       "outputs": [
@@ -88,7 +94,7 @@
           "output_type": "execute_result",
           "data": {
             "text/plain": [
-              "2.1"
+              "9"
             ]
           },
           "metadata": {},
@@ -99,14 +105,14 @@
     {
       "cell_type": "code",
       "source": [
-        "int(num1)"
+        "3**3"
       ],
       "metadata": {
+        "id": "g16-ac6wuRpZ",
+        "outputId": "47820448-33eb-4508-efd4-aa43a52b13d5",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        },
-        "id": "6LzEY8SdslD9",
-        "outputId": "091981fd-0095-4d80-83c9-b6b80a99b12d"
+        }
       },
       "execution_count": 4,
       "outputs": [
@@ -114,7 +120,7 @@
           "output_type": "execute_result",
           "data": {
             "text/plain": [
-              "2"
+              "27"
             ]
           },
           "metadata": {},
@@ -125,55 +131,42 @@
     {
       "cell_type": "code",
       "source": [
-        "str(num1)"
+        "上底=int(input('請輸入梯形上底長度;'))\n",
+        "下底=int(input('請輸入梯形下底長度;'))\n",
+        "高=int(input('請輸入梯形的高度'))\n",
+        "面積=(上底+下底)*高/2"
       ],
       "metadata": {
+        "id": "zMQhpzVBuV3i",
+        "outputId": "367a7822-aafd-47c3-8f65-b8fbfdbf30df",
         "colab": {
-          "base_uri": "https://localhost:8080/",
-          "height": 35
-        },
-        "id": "FqXcBPVnsrjT",
-        "outputId": "9773b4bb-56c0-493c-f69a-8d67bf3d0843"
+          "base_uri": "https://localhost:8080/"
+        }
       },
-      "execution_count": 5,
+      "execution_count": 6,
       "outputs": [
         {
-          "output_type": "execute_result",
-          "data": {
-            "text/plain": [
-              "'2.1'"
-            ],
-            "application/vnd.google.colaboratory.intrinsic+json": {
-              "type": "string"
-            }
-          },
-          "metadata": {},
-          "execution_count": 5
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "請輸入梯形上底長度;3\n",
+            "請輸入梯形下底長度;4\n",
+            "請輸入梯形的高度3\n"
+          ]
         }
       ]
     },
     {
       "cell_type": "code",
       "source": [
-        "num2=2"
+        "面積"
       ],
       "metadata": {
-        "id": "S3AwxwLZs0S8"
-      },
-      "execution_count": 6,
-      "outputs": []
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "num2"
-      ],
-      "metadata": {
+        "id": "B8Karv7-wcXL",
+        "outputId": "b894444d-c14e-4342-fa63-df173375ba26",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        },
-        "id": "S9XKAXqAs_uT",
-        "outputId": "0e3a9e75-0f8d-4cfa-aa3c-60bc8c8ec35e"
+        }
       },
       "execution_count": 7,
       "outputs": [
@@ -181,7 +174,7 @@
           "output_type": "execute_result",
           "data": {
             "text/plain": [
-              "2"
+              "10.5"
             ]
           },
           "metadata": {},
@@ -192,107 +185,29 @@
     {
       "cell_type": "code",
       "source": [
-        "float(num2)"
+        "上底=int(input('請輸入梯形上底長度:'))\n",
+        "下底=int(input('請輸入梯形下底長度:'))\n",
+        "高=int(input('請輸入梯形的高度'))\n",
+        "面積=(上底+下底)*高/2\n",
+        "print('梯形上底長度為:',上底,'梯形下底長度為:',下底,'梯形高度為:',高,'梯形面積為:',面積)"
       ],
       "metadata": {
+        "id": "pEWe_Mi5wgTU",
+        "outputId": "2876b2d3-073f-4792-80be-89d011f8a242",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        },
-        "id": "HA315q_gtFTB",
-        "outputId": "56a0d9b0-f5b6-459d-cb3e-49a76394016e"
-      },
-      "execution_count": 8,
-      "outputs": [
-        {
-          "output_type": "execute_result",
-          "data": {
-            "text/plain": [
-              "2.0"
-            ]
-          },
-          "metadata": {},
-          "execution_count": 8
         }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "print(type(num1))"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "WlQcv-ABtViF",
-        "outputId": "72222565-e331-488f-9274-b60f6310d90b"
-      },
-      "execution_count": 9,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "<class 'float'>\n"
-          ]
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "print(type(num2))"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "kHMKdFoAt6Cj",
-        "outputId": "8f7a2da5-946b-4063-bade-caac6e64b5bf"
-      },
-      "execution_count": 10,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "<class 'int'>\n"
-          ]
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "a=1\n",
-        "b=2\n",
-        "c=3"
-      ],
-      "metadata": {
-        "id": "FdmlguztuKhW"
       },
       "execution_count": 11,
-      "outputs": []
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "print(a,b,c)"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "N-FpBYo3ufvV",
-        "outputId": "1fb47119-1609-4df7-c21d-6c56aa4c9083"
-      },
-      "execution_count": 12,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "1 2 3\n"
+            "請輸入梯形上底長度:3\n",
+            "請輸入梯形下底長度:4\n",
+            "請輸入梯形的高度3\n",
+            "梯形上底長度為: 3 梯形下底長度為: 4 梯形高度為: 3 梯形面積為: 10.5\n"
           ]
         }
       ]
@@ -300,37 +215,14 @@
     {
       "cell_type": "code",
       "source": [
-        "print((a,b,c))"
+        "print('梯形上底長度為:%d,梯形下底長度為:%d,梯形高度為:%d,梯形面積為:%d'%(上底,下底,高,面積))"
       ],
       "metadata": {
+        "id": "lHZgfJvhzXrC",
+        "outputId": "33084ab3-3358-44fc-a08a-344f716cef6b",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        },
-        "id": "9b3kYLLduoOU",
-        "outputId": "b249de58-e0d4-43f0-a435-f608db87a062"
-      },
-      "execution_count": 13,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "(1, 2, 3)\n"
-          ]
         }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "print(a,(b,c))"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "4ZH1Fytru4Ut",
-        "outputId": "db1d97c3-5db4-40a6-ca25-44f0d977a222"
       },
       "execution_count": 14,
       "outputs": [
@@ -338,7 +230,7 @@
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "1 (2, 3)\n"
+            "梯形上底長度為:3,梯形下底長度為:4,梯形高度為:3,梯形面積為:10\n"
           ]
         }
       ]
@@ -346,14 +238,14 @@
     {
       "cell_type": "code",
       "source": [
-        "print('hey','hi','hello')"
+        "print('梯形上底長度為:%d,梯形下底長度為:%d,梯形高度為:%d,梯形面積為:%f'%(上底,下底,高,面積))"
       ],
       "metadata": {
+        "id": "-nkfzvEq1f_g",
+        "outputId": "3a171442-4c33-424d-836a-ff12501a4fe8",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        },
-        "id": "IQ7c3zNmvCVg",
-        "outputId": "b0b5998a-95e3-40e8-91d4-bcf12d0293a0"
+        }
       },
       "execution_count": 15,
       "outputs": [
@@ -361,7 +253,7 @@
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "hey hi hello\n"
+            "梯形上底長度為:3,梯形下底長度為:4,梯形高度為:3,梯形面積為:10.500000\n"
           ]
         }
       ]
@@ -369,22 +261,22 @@
     {
       "cell_type": "code",
       "source": [
-        "print('hey','hi','hello'sep='_')"
+        "print('梯形上底長度為:%d,梯形下底長度為:%d,梯形高度為:%d,梯形面積為:%0.2f'%(上底,下底,高,面積))"
       ],
       "metadata": {
+        "id": "L-YfA-5F1uFV",
+        "outputId": "68903ba7-7d94-44f7-f208-b07cb82b2655",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        },
-        "id": "i-TeijjPvwHO",
-        "outputId": "7d603777-23c6-483c-ba6d-4c2f89683109"
+        }
       },
-      "execution_count": 16,
+      "execution_count": 17,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "hey_hi_hello\n"
+            "梯形上底長度為:3,梯形下底長度為:4,梯形高度為:3,梯形面積為:10.50\n"
           ]
         }
       ]
@@ -392,22 +284,35 @@
     {
       "cell_type": "code",
       "source": [
-        "print('hey','hi','hello',sep='\\t')"
+        "a=1.1\n",
+        "b=2.02\n",
+        "c=3.003"
       ],
       "metadata": {
+        "id": "7dWsC-ci2Ks9"
+      },
+      "execution_count": 18,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print('a=%0.1f,b=%0.2f,c=%0.3f'%(a,b,c))"
+      ],
+      "metadata": {
+        "id": "l7ubgzaS2bf-",
+        "outputId": "57d2e444-db3f-4738-bd41-1e3e694bd0b8",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        },
-        "id": "aOxFGA1cwENO",
-        "outputId": "6841ddec-94f2-4574-ea8a-e6cc6efb84e6"
+        }
       },
-      "execution_count": 20,
+      "execution_count": 23,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "hey\thi\thello\n"
+            "a=1.1,b=2.02,c=3.003\n"
           ]
         }
       ]
@@ -415,493 +320,262 @@
     {
       "cell_type": "code",
       "source": [
-        "print('hey','hi','hello',sep='\\n')"
+        "6+9==2+13"
       ],
       "metadata": {
+        "id": "tHIyKoQF3ZIH",
+        "outputId": "efa8bcb6-0ac2-4091-cbab-9badc71151b7",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        },
-        "id": "8oWiNL8Iwj07",
-        "outputId": "7c8b7afd-64ed-4a02-90ec-6dcbcd42d177"
-      },
-      "execution_count": 21,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "hey\n",
-            "hi\n",
-            "hello\n"
-          ]
         }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "print('午安,')\n",
-        "print('同學好!')\n",
-        "print('打起精神來!!')\n",
-        "print('午安,','同學好!','打起精神來!!',sep='\\n')"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "N90nA3pzwzbX",
-        "outputId": "7cd04dcc-090a-45d0-a783-408fb00f443b"
-      },
-      "execution_count": 24,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "午安,\n",
-            "同學好!\n",
-            "打起精神來!!\n",
-            "午安,\n",
-            "同學好!\n",
-            "打起精神來!!\n"
-          ]
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "print(123)\n",
-        "print(456)"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "X4O_mh2SzJGD",
-        "outputId": "346da714-4a19-4a82-9864-fa62eb384e4a"
       },
       "execution_count": 25,
       "outputs": [
         {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "123\n",
-            "456\n"
-          ]
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "True"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 25
         }
       ]
     },
     {
       "cell_type": "code",
       "source": [
-        "print(123,end=',')\n",
-        "print(456)"
+        "8+9==2+13"
       ],
       "metadata": {
+        "id": "EpT7Fz7T5jzm",
+        "outputId": "aeed3659-3cb2-4690-db17-30687128ef2e",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        },
-        "id": "knSXK-JdzjIc",
-        "outputId": "2ad09994-fe7c-4482-92bd-0ecb98a1175f"
+        }
       },
       "execution_count": 26,
       "outputs": [
         {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "123,456\n"
-          ]
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "False"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 26
         }
       ]
     },
     {
       "cell_type": "code",
       "source": [
-        "print(123,end='')\n",
-        "print(456)"
+        "8+9>2+13"
       ],
       "metadata": {
+        "id": "LYLShqau5nwx",
+        "outputId": "6e374935-abcc-4904-fc23-21b852d0011e",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        },
-        "id": "HMTLb1jpzxTC",
-        "outputId": "d736e376-b15f-43c5-e113-c6f1256063c5"
+        }
       },
       "execution_count": 27,
       "outputs": [
         {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "123456\n"
-          ]
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "True"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 27
         }
       ]
     },
     {
       "cell_type": "code",
       "source": [
-        "print('午安','同學好','打起精神來',sep='_',end='!!!')"
+        "6+9>2+13"
       ],
       "metadata": {
+        "id": "aTChxGEW5sqy",
+        "outputId": "c58b6e75-8fb9-41fc-abb7-a2c894537439",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        },
-        "id": "gHrBDL-zz7AE",
-        "outputId": "3c1a0323-3343-41ed-9b7a-bce8fa20dfb5"
+        }
+      },
+      "execution_count": 28,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "False"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 28
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "5+9<2+13"
+      ],
+      "metadata": {
+        "id": "pAPHZWfN5vES",
+        "outputId": "a4b12db5-5d58-495c-eec4-2f6617ca9a1f",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 29,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "True"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 29
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "8+9<2+13"
+      ],
+      "metadata": {
+        "id": "GEN6bcg95yT6",
+        "outputId": "d9b15269-a595-4a25-c049-e09c5ef72dc0",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 30,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "False"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 30
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "6+9>=2+13"
+      ],
+      "metadata": {
+        "id": "IC8I5BmY51bj",
+        "outputId": "22372ba9-99de-4629-ad3d-dcd5666db69a",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 31,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "True"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 31
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "3+9>=2+13"
+      ],
+      "metadata": {
+        "id": "nePqod5j55T7",
+        "outputId": "c256c9d5-ce20-4a51-a721-c352b2943b77",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 32,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "False"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 32
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "3+9<=2+13"
+      ],
+      "metadata": {
+        "id": "OYbrF2L35-UO",
+        "outputId": "f0410ef6-ec7b-4290-b25e-1e524fe409a7",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 33,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "True"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 33
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "8+9<=2+13"
+      ],
+      "metadata": {
+        "id": "E7Ys4RDi6Auj",
+        "outputId": "ba80b14a-213d-4b73-8eea-740a28b9d5ab",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
       },
       "execution_count": 34,
       "outputs": [
         {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "午安_同學好_打起精神來!!!"
-          ]
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "print('早上好','平安順心','健康如意',sep=',',end='^^')"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "tojHH8Od0iJw",
-        "outputId": "298bb97f-b140-43f6-8a9f-23886996c38f"
-      },
-      "execution_count": 35,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "早上好,平安順心,健康如意^^"
-          ]
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "test1=input('輸入')"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "mGIovUtQIXle",
-        "outputId": "82c22c84-9f84-44af-92a2-db2109eac9de"
-      },
-      "execution_count": 37,
-      "outputs": [
-        {
-          "name": "stdout",
-          "output_type": "stream",
-          "text": [
-            "輸入123\n"
-          ]
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "test1"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/",
-          "height": 35
-        },
-        "id": "AvnMxTpQIs_g",
-        "outputId": "3cd15180-1770-459c-dd1e-d7c76236ad2e"
-      },
-      "execution_count": 38,
-      "outputs": [
-        {
           "output_type": "execute_result",
           "data": {
             "text/plain": [
-              "'123'"
-            ],
-            "application/vnd.google.colaboratory.intrinsic+json": {
-              "type": "string"
-            }
-          },
-          "metadata": {},
-          "execution_count": 38
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "test1+1"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/",
-          "height": 167
-        },
-        "id": "SiVTisjr12BQ",
-        "outputId": "2a78b9ce-1960-4397-99d3-1d84947b95b1"
-      },
-      "execution_count": 39,
-      "outputs": [
-        {
-          "output_type": "error",
-          "ename": "TypeError",
-          "evalue": "ignored",
-          "traceback": [
-            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
-            "\u001b[0;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
-            "\u001b[0;32m<ipython-input-39-afe2d20a571d>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m()\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0mtest1\u001b[0m\u001b[0;34m+\u001b[0m\u001b[0;36m1\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
-            "\u001b[0;31mTypeError\u001b[0m: can only concatenate str (not \"int\") to str"
-          ]
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "print(type(test1))"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "oYnayKoHJNdE",
-        "outputId": "4819ed0f-8858-46ef-caaa-0cd68ac4bb09"
-      },
-      "execution_count": 40,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "<class 'str'>\n"
-          ]
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "test2=int(input('輸入'))"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "umu5uMy4JVWI",
-        "outputId": "430cac89-5fe1-4dfc-9f2a-2bff0bf6b028"
-      },
-      "execution_count": 41,
-      "outputs": [
-        {
-          "name": "stdout",
-          "output_type": "stream",
-          "text": [
-            "輸入123\n"
-          ]
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "print(type(test2))"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "uNNflrcgJyPe",
-        "outputId": "3df3c085-be3a-42d5-c382-f9e092e3ae18"
-      },
-      "execution_count": 42,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "<class 'int'>\n"
-          ]
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "test2+1"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "Lx6JequEJ4-I",
-        "outputId": "4652b0cb-7f75-4a9b-c381-16f74758f32b"
-      },
-      "execution_count": 43,
-      "outputs": [
-        {
-          "output_type": "execute_result",
-          "data": {
-            "text/plain": [
-              "124"
+              "False"
             ]
           },
           "metadata": {},
-          "execution_count": 43
+          "execution_count": 34
         }
       ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "test3=int(input('請輸入月份'))\n",
-        "test4=(int(input('請輸入日期')))"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "NEqCgqBUJ786",
-        "outputId": "fa6764f3-ab05-4904-c1bc-5a6d4811f818"
-      },
-      "execution_count": 44,
-      "outputs": [
-        {
-          "name": "stdout",
-          "output_type": "stream",
-          "text": [
-            "請輸入月份3\n",
-            "請輸入日期21\n"
-          ]
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "test3"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "2TOeyGzqMoKV",
-        "outputId": "dbcb5eb2-b7e5-4fbe-a569-6a2a7e3dbacd"
-      },
-      "execution_count": 45,
-      "outputs": [
-        {
-          "output_type": "execute_result",
-          "data": {
-            "text/plain": [
-              "3"
-            ]
-          },
-          "metadata": {},
-          "execution_count": 45
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "test4"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "sWRqVZBnMrvG",
-        "outputId": "c8ee08f9-005f-4be1-d5c2-356fd33df101"
-      },
-      "execution_count": 46,
-      "outputs": [
-        {
-          "output_type": "execute_result",
-          "data": {
-            "text/plain": [
-              "21"
-            ]
-          },
-          "metadata": {},
-          "execution_count": 46
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "print('今天是',test3,'月',test4,'號',sep='')"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "EOoSyfewNZFi",
-        "outputId": "3a81faee-002c-4b87-81a6-5e179e30a9b5"
-      },
-      "execution_count": 47,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "今天是3月21號\n"
-          ]
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "test5=int(input('請輸入國文成績'))\n",
-        "test6=(int(input('請輸入英文成績')))\n",
-        "test7=(int(input('請輸入數學成績')))\n",
-        "test6=(int(input('你的成績總分為;')))"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "UiPH80t3OQmO",
-        "outputId": "471f060b-c7dd-48b9-f079-4a684a35f23c"
-      },
-      "execution_count": 49,
-      "outputs": [
-        {
-          "name": "stdout",
-          "output_type": "stream",
-          "text": [
-            "請輸入國文成績50\n",
-            "請輸入英文成績60\n",
-            "請輸入數學成績70\n",
-            "你的成績總分為;180\n"
-          ]
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        ""
-      ],
-      "metadata": {
-        "id": "GKV62Ta1RA4t"
-      },
-      "execution_count": null,
-      "outputs": []
     },
     {
       "cell_type": "markdown",
